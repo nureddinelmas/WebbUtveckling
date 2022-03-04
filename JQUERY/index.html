@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+        integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Jquery Tutorial</h1>
+    <p>My Family</p>
+    <script>
+        let dizayn = {
+            color: "blue",
+            background: "green",
+            border: "3px solid black"
+
+        }
+    </script>
+
+    <script> 
+        $(document).ready(function(){
+                $("button").click(function(){
+                    alert("Value: " +$("#sometext").val())
+                    $("img").addClass("manzara")
+                }) 
+        })
+
+    </script>
+
+    <input type="text" id="sometext" value="">
+    <button>Submit</button>
+    <ul>
+        <li>Nureddin Elmas <a href="google.com">Google</a></li>
+        <li>Seyma Elmas</li>
+        <li>Ali Emre Elmas</li>
+        <li>Sami Elmas</li>
+    </ul>
+
+    <div class="manzara">
+        <img src="görseller/mjölby.jpeg">
+        <img src="görseller/malmö.jpeg">
+        <img src="görseller/guzel.jpeg"> 
+    </div>
+
+    <button>Try AddClass()</button>
+</body>
+
+</html>

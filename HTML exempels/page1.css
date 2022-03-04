@@ -1,0 +1,49 @@
+div {
+    background: purple;
+    color: white;
+}
+
+/* id yazilip ad verildigi zaman o zamanda # isareti konularak yapilir */ 
+#quote {
+    font-family: "verdana", "gill sans";
+    color: black;
+}
+
+/* Class yazildigi zaman . konularak yapiliyor*/
+.movie {
+    color: white;
+    background: steelblue;
+    
+}
+
+/* Eger yazinin icindeki bir seyi guncellemek icin span ve id yazilarak sadece oradaki degerin goruntusunu degistirebilirinis span#id*/
+span#author {
+    text-transform: uppercase;
+}
+
+p#yazar {
+    text-transform: uppercase;
+}
+button#button {
+    text-transform: uppercase;
+}
+
+#skills ol li {
+    color: rgb(121, 41, 121);
+    background: black;
+}
+
+#skills ul li {
+    color: white;
+}
+
+
+h3 + p {
+
+    background: gray;
+    color: white;
+}
+
+p[class] {
+    background: gray;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <div id = "reg-form">
+        
+    <form action="" method="">
+        <label for="first-name">First Name : </label>
+         <input type="text" name="first-name" placeholder="Ange ett namn -> " required class="input-field">
+        <br>
+        <div>
+         <label for="second-name">Second Name: </label>
+         <input type="text" name="second-name" placeholder="Ange second namn -> " required class="input-field">
+            <br>
+         <label for="gender-male">Male</label>
+         <input type="radio" name="gender" id="" value="choice-1" class="input-field">
+
+         <label for="gender-female">Female</label>
+         <input type="radio" name="gender" id="" value="choice-2" class="input-field">
+
+        </div>
+
+        <div>
+        
+            <label for="email"> Email ;</label>
+            <input type="email" name="email" placeholder="exemple@gmail.com" class="input-field">
+            <br>
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="" placeholder="***">
+
+
+        </div>
+
+        
+
+        <div>
+            <label for="Month"></label>
+            <select name="Month" id="">
+                <option value="0" selected disabled>Month</option>
+                <option value="jan">Januari</option>
+                <option value="feb">Fabriari</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+            </select>
+        </div>
+        <br>
+        
+
+        <div>
+            <label for="agree">I agree with it</label>
+            <input type="checkbox" name="agree" id="">
+        </div>
+       <button id="button" type="button" class="button" onclick="alert('Merhaba Benim yeni web yazilim !')">Click me</button>
+       <br>
+       <button type="submit" onclick="alert('Resim tiklandi!!')"><img src="biz.jpg" alt="bizim" width="50" height="50" class="button"></button>
+    </form>
+    </div>
+</body>
+</html>

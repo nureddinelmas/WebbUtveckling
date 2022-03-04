@@ -1,0 +1,60 @@
+#paragraf {
+    background: black;
+    color: white;
+
+    border: 3px dashed red;
+    padding: 13px;
+
+   margin-left: 100px;
+   margin-right: 100px;
+   border-radius: 12px;
+}
+
+#baslik {
+   margin-left: 200px;
+   margin-right: 900px;
+    padding: 3px;
+    padding-left: 13px;
+   border: 3px dashed red;
+   border-radius: 20px;
+
+}
+
+#normal {
+    font-style: normal;
+
+}
+
+#italic {
+    font-style: italic;
+}
+
+#olique {
+    font-style: oblique;
+}
+
+#smallcap {
+    font-variant: small-caps;
+}
+
+#Wbolder {
+    font-weight: bolder;
+
+}
+
+#Wbold {
+    font-weight: bold;
+}
+
+#xxLarge {
+    font-size: large;
+}
+
+#xxsmall {
+    font-size: 150%;
+}
+
+#linenormal {
+    line-height: 25em;
+}
+
